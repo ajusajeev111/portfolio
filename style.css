@@ -1,0 +1,407 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: "AirbnbCereal";
+    src: url(fonts/AirbnbCereal-Bk.ttf);
+}
+
+@font-face {
+    font-family: "JosefinSans";
+    src: url(fonts/JosefinSans-Bold.ttf);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "JosefinSans";
+    src: url(fonts/JosefinSans-ExtraLight.ttf);
+    font-weight: 200;
+}
+
+body {
+
+    background-image: url(images/Gradient.png);
+    background-size: cover;
+    background-position: top;
+    font-family: 'JosefinSans', sans-serif;
+}
+header{
+    width: 100%;
+    height: 75px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.logo{
+    margin-left: 35px;
+    margin-top: 38px;s
+}
+
+nav {
+    background-color: transparent;
+    margin-top: 20px;
+    font-family: 'AirbnbCereal', sans-serif;
+    
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 20px;
+    padding: 0px;
+    
+}
+
+li {
+    display: inline;
+    margin-right: 50px;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'JosefinSans';
+    font-weight: 400;
+    font-size: 75px
+}
+.container {
+    text-align: center;
+    font-family: 'JosefinSans';
+    font-weight: 400;
+}
+
+.section{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column nowrap;
+    padding: 4rem 0;
+    z-index: 100;
+    font-family: 'JosefinSans';
+    font-weight: 400;
+}
+
+
+.block-content h1{
+    font-family: "JosefinSans";
+    font-weight: 400;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+.expertise li{
+    
+    font-family: 'JosefinSans';
+    font-weight: 200;
+    font-size: 20px;
+    margin-right: 10px;
+    display: inline;
+    margin-right: 10px
+}
+
+
+.expertise{
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+
+.container {
+    margin-top: 100px;
+    display: flex;
+    white-space: nowrap;
+    width: 100%;
+    height: clamp(3em, 10vw, 6em);
+    overflow: hidden;
+    font-family:"JosefinSans";
+}
+
+.loop-text {
+    font-size: clamp(2.5rem, 8vw, 5.5rem);
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 0 0.25em;
+    animation: loopText 15s infinite linear;
+}
+
+@keyframes loopText {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-100%);
+    }
+}
+
+#services{
+    text-align: center;
+    margin-top: 150px;
+    font-size: 50PX;
+
+}
+#projects{
+    text-align: center;
+    margin-top: 150px;
+    font-size: 50pX;
+
+}
+.image-row{
+    margin-top: 50px;
+}
+
+
+
+
+
+
+
+
+
+  .div {
+    background-color:transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 60px;
+  }
+  @media (max-width: 991px) {
+    .div {
+      padding: 0 20px;
+    }
+  }
+  .div-2 {
+    display: flex;
+    margin-top: 20px;
+    width: 100%;
+    max-width: 1079px;
+    flex-direction: column;
+  }
+  @media (max-width: 991px) {
+    .div-2 {
+      max-width: 100%;
+    }
+  }
+  .div-3 {
+  }
+  @media (max-width: 991px) {
+    .div-3 {
+      max-width: 100%;
+    }
+  }
+  .div-4 {
+    gap: 20px;
+    display: flex;
+  }
+  @media (max-width: 991px) {
+    .div-4 {
+      flex-direction: column;
+      align-items: stretch;
+      gap: 0px;
+    }
+  }
+  .column {
+    display: flex;
+    flex-direction: column;
+    line-height: normal;
+    width: 46%;
+    margin-left: 0px;
+  }
+  @media (max-width: 991px) {
+    .column {
+      width: 100%;
+    }
+  }
+  .div-5 {
+    display: flex;
+    flex-direction: column;
+  }
+  @media (max-width: 991px) {
+    .div-5 {
+      margin-top: 40px;
+    }
+  }
+  .div-6 {
+    color: var(--Black, #2d2d2d);
+    white-space: nowrap;
+    font: 700 32px/131% AirbnbCereal_W_Bd, -apple-system, Roboto, Helvetica,
+      sans-serif;
+  }
+  @media (max-width: 991px) {
+    .div-6 {
+      white-space: initial;
+    }
+  }
+  .div-7 {
+    color: #2d2d2d;
+    margin-top: 40px;
+    font: 300 17px/27px AirbnbCereal_W_Lt, -apple-system, Roboto, Helvetica,
+      sans-serif;
+  }
+  .img {
+    aspect-ratio: 3.7;
+    object-fit: auto;
+    object-position: center;
+    width: 134px;
+    margin-top: 60px;
+    max-width: 100%;
+  }
+  @media (max-width: 991px) {
+    .img {
+      margin-top: 40px;
+    }
+  }
+  .column-2 {
+    display: flex;
+    flex-direction: column;
+    line-height: normal;
+    width: 54%;
+    margin-left: 20px;
+  }
+  @media (max-width: 991px) {
+    .column-2 {
+      width: 100%;
+    }
+  }
+  .div-8 {
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    font-size: 17px;
+    color: #2d2d2d;
+    font-weight: 400;
+    line-height: 159%;
+  }
+  @media (max-width: 991px) {
+    .div-8 {
+      max-width: 100%;
+      margin-top: 40px;
+    }
+  }
+  .div-9 {
+    font-family: AirbnbCereal_W_Bk, sans-serif;
+    background-color: #f3f3f3;
+    justify-content: center;
+    white-space: nowrap;
+    padding: 21px 30px;
+  }
+  @media (max-width: 991px) {
+    .div-9 {
+      max-width: 100%;
+      white-space: initial;
+      padding: 0 20px;
+    }
+  }
+  .div-10 {
+    font-family: AirbnbCereal_W_Bk, sans-serif;
+    background-color: #f3f3f3;
+    margin-top: 20px;
+    justify-content: center;
+    white-space: nowrap;
+    padding: 21px 30px;
+  }
+  @media (max-width: 991px) {
+    .div-10 {
+      max-width: 100%;
+      white-space: initial;
+      padding: 0 0px;
+    }
+  }
+  .div-11 {
+    font-family: AirbnbCereal_W_Bk, sans-serif;
+    background-color: #f3f3f3;
+    margin-top: 20px;
+    justify-content: center;
+    line-height: 27px;
+    padding: 21px 30px;
+  }
+  @media (max-width: 991px) {
+    .div-11 {
+      max-width: 100%;
+      padding: 0 20px;
+    }
+  }
+  .div-12 {
+    align-items: center;
+    background-color: var(--Black, #2d2d2d);
+    align-self: center;
+    max-width: 100%;
+    justify-content: center;
+    color: var(--White, #fff);
+    text-align: center;
+    padding: 0% 0px;
+    font-family: "JosefinSans";
+}
+
+.custom-button {
+    background-color: var(--Black, #2d2d2d);
+    color: var(--White, #fff);
+    border: none;
+    padding: 25px 60px;
+    font: 600 20px/150% Epilogue, sans-serif;
+    cursor: pointer;
+    outline: none;
+}
+
+.custom-button:hover {
+    background-color: #3a3a3a; /* Change color on hover if desired */
+}
+
+  }
+  @media (max-width: 991px) {
+    .div-12 {
+      white-space: initial;
+      padding: 0 20px;
+    }
+  }
+
+  .name {
+    input[type=text] {
+  width: 100%;
+  padding: 10px 10px;
+  margin: 0px 0px;
+  box-sizing: border-box;
+}
+  } 
+
+.name form{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+
+
+#email {
+width: 100%;
+padding: 10px 10px;
+margin: 8px 0;
+box-sizing: border-box;
+}
+
+.message {
+  input[type=text] {
+min-width: 100vh;
+width: 100%;
+padding: 10px 10px;
+margin: 0px 0px;
+box-sizing: border-box;
+}
+} 
+
+.message form{
+width: 100%;
+padding: 12px 20px;
+margin: 8px 0;
+box-sizing: content-box;
+}
+
+.result{
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+}
